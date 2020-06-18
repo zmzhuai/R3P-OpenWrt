@@ -11,4 +11,4 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.88.1/g' package/base-files/files/bin/config_generate
-#sed -i "s/enabled = true/enabled = false/g" package/lean/luci-app-ssr-plus/root/usr/share/shadowsocksr/genv2config.lua
+sed -i "s/enabled = true/enabled = false/g" package/feeds/helloworld/luci-app-ssr-plus/root/usr/share/shadowsocksr/genv2config.lua
